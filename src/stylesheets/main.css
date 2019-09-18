@@ -1,0 +1,68 @@
+h1 {
+    color: red;
+}
+
+.column {
+    width: 16.0%;
+    float: left;
+    margin: 16px 0.1% 0 1.5%;
+}
+
+.flag {
+    width: 100%;
+    height: 121px;
+}
+
+#greece {
+    position: relative;
+    opacity: 1;
+    transition: 10s;
+}
+#greece:hover {
+    opacity: 0;
+}
+
+#greece:hover .line {
+    color: #26377d;
+}
+
+#greece:hover .line:nth-child(2n)  {
+    color: #ffffff;
+}
+
+#greece .line {
+    width: 100%;
+    height: 14px;
+    background: #ffffff;
+}
+
+#greece .line:nth-child(2n) {
+    background: #26377d;
+}
+
+#greece .cross-base {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 75px;
+    background: #26377d;
+}
+
+#greece .v-cross {
+    height: 100%;
+    background: #ffffff;
+    top: 0;
+    left: 46%;
+    width: 6%;
+    position: absolute;
+}
+
+#greece .h-cross {
+    width: 100%;
+    background: #ffffff;
+    top: 46%;
+    left: 0;
+    height: 6%;
+    position: absolute;
+}
